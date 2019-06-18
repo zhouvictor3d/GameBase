@@ -80,10 +80,8 @@ namespace VC.Common.IO
                 if (null == mPersistentDataPath4Photo)
                 {
                     mPersistentDataPath4Photo = PersistentDataPath + "Photos\\";
-
-                    IOExtension.CreateDirIfNotExists(mPersistentDataPath4Photo);
+                    IOExtension.CreateDirectory(mPersistentDataPath4Photo);
                 }
-
                 return mPersistentDataPath4Photo;
             }
         }

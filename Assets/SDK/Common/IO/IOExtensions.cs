@@ -13,7 +13,7 @@ namespace VC.Common.IO
     public static class IOExtension
     {
         #region 路径操作
-        public static string CreateDir(this string dirFullPath)
+        public static string CreateDirectory(this string dirFullPath)
         {
             if (!Directory.Exists(dirFullPath))
             {
@@ -21,14 +21,14 @@ namespace VC.Common.IO
             }
             return dirFullPath;
         }
-        public static void DeleteDir(this string dirFullPath)
+        public static void DeleteDirectory(this string dirFullPath)
         {
             if (Directory.Exists(dirFullPath))
             {
                 Directory.Delete(dirFullPath, true);
             }
         }
-        public static void EmptyDir(this string dirFullPath)
+        public static void EmptyDirectory(this string dirFullPath)
         {
             if (Directory.Exists(dirFullPath))
             {
