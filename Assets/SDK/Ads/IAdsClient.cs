@@ -21,29 +21,53 @@ namespace VC.Ads
         event Action<string> OnRewardVideoReceivedReward;
         event Action<string, string> OnRewardVideoLoadFailed;
         event Action<string, string> OnRewardVideoFailedToPlay;
-       
+
         event Action<string> OnInterstitialClosed;
         event Action<string> OnInterstitialClicked;
         event Action<string> OnInterstitialLoaded;
         event Action<string> OnInterstitialOpened;
         event Action<string, string> OnInterstitialLoadFailed;
 
-        
 
+
+
+        #region Banner
+        void FetchBanner();
         void CreateBanner(BannerPosition bannerPosition);
         void ShowBanner(BannerPosition bannerPosition);
 
         void HideBanner();
         void DestroyBanner();
 
-        void FetchInterstitial();
-        void FetchRewardVideo();
+        #endregion
 
+        /*
+          #region NativeBanner
+
+          void FetchNativeBanner();
+
+          void HideNativeBanner();
+
+          void DestoryNativeBanner();
+
+         #endregion
+        */
+        #region RewardVideo
+
+        void FetchRewardVideo();
         bool IsRewardVideoAvailable();
+        void ShowRewardVideo(Action rewardVideoOpenEvent, Action rewardVideoReceivedRewardEvent, Action rewardVideoCloseEvent);
+
+        #endregion
+
+        #region Interstitial
+
+        void FetchInterstitial();
         bool IsInterstitialAvailable();
         void ShowInterstitial(Action<InterstitialStatus> callback);
 
+        #endregion
+
         void SetPrivacy(bool isProtect);
-        void ShowRewardVideo(Action rewardVideoOpenEvent, Action rewardVideoReceivedRewardEvent, Action rewardVideoCloseEvent);
     }
 }

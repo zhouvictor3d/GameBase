@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 
 namespace VC.APP
 {
@@ -6,8 +6,11 @@ namespace VC.APP
      * APP AB Test 测试
      * 
      */
-    public class AlphaBetaUtils
+    public static class AlphaBetaUtils
     {
+        public static void SetUserGroup()
+        {
 
+        }
     }
 }

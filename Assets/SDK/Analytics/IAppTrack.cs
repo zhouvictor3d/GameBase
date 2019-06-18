@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VC.Editor
+namespace VC.Analytics
 {
     /*
-     * 项目自动化设置
+     * APP 数据追踪
      * 
      */
-    public static class ProjectSettingsUtils
+    public interface IAppTrack
     {
 
     }
