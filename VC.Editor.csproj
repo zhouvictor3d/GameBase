@@ -241,6 +241,39 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>F:/Hi2019_GitHub/Gamebase/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -259,38 +292,11 @@
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>F:/Hi2019_GitHub/Gamebase/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
- <Reference Include="ChannelPurchase">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ <Reference Include="Tapjoy">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Tapjoy/Tapjoy.dll</HintPath>
  </Reference>
- <Reference Include="UnityStore">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
- </Reference>
- <Reference Include="UDP">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UDP/UDP.dll</HintPath>
- </Reference>
- <Reference Include="Security">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
- </Reference>
- <Reference Include="Stores">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
- </Reference>
- <Reference Include="Editor">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
- </Reference>
- <Reference Include="Purchasing.Common">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
- </Reference>
- <Reference Include="winrt">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
- </Reference>
- <Reference Include="FacebookStore">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
- </Reference>
- <Reference Include="Apple">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
- </Reference>
- <Reference Include="Tizen">
- <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <Reference Include="TapjoyEditor">
+ <HintPath>F:/Hi2019_GitHub/Gamebase/Assets/Tapjoy/Editor/TapjoyEditor.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a3/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

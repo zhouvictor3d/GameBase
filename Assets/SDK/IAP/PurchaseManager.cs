@@ -20,23 +20,22 @@ public class PurchaseManager : MonoBehaviour, IStoreListener
 
    
 
-    private void OnInitialized(IStoreController controller, IExtensionProvider extensions)
+    public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
     {
         this.controller = controller;
     }
-    private void OnInitializeFailed(InitializationFailureReason error)
+    public void OnInitializeFailed(InitializationFailureReason error)
     {
 
     }
-    private void OnPurchaseFailed(Product i, PurchaseFailureReason p)
+    public void OnPurchaseFailed(Product i, PurchaseFailureReason p)
     {
 
     }
-    private PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
+    public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
     {
         return PurchaseProcessingResult.Complete;
     }
-
     public void OnPurchaseClicked(string productId)
     {
         controller.InitiatePurchase(productId);
